@@ -2,13 +2,13 @@
 
 pkgname=librm
 pkgver=2.1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Router Manager library"
 arch=('i686' 'x86_64')
 url="https://www.tabos.org/"
 license=('GPL2')
 
-depends=(glib2 gdk-pixbuf2 libsoup speex libxml2 libtiff spandsp json-glib libsndfile gupnp gssdp gstreamer gst-plugins-base isdn4k-utils libsecret)
+depends=(glib2 gdk-pixbuf2 libsoup speex libxml2 libtiff spandsp json-glib libsndfile gupnp gssdp gstreamer gst-plugins-base libcapi libsecret)
 makedepends=(meson git)
 
 options=('!emptydirs')
